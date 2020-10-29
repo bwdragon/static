@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liga.net</title>
+    <style>
+        html{height:auto;overflow-x:hidden}body{font-family:'Roboto',sans-serif;color:#000;font-style:normal;font-weight:400;font-size:16px;margin:0;overflow-x:hidden;background-color: #F6F6F6}
+        a{color:#000;text-decoration:none;cursor:pointer}a:hover{text-decoration:none;color:#000}
+        html, body {height: 100% !important}
+        main {height: calc(100% - 339px);display: flex;align-items: center}
+        h1, p {text-align: center}
+        p {margin-top: -9px!important}
+        @media only screen and (max-width: 450px){h1 {font-size: 1.5em} p {font-size: 0.95em}}
+        @media only screen and (max-width: 767px){header {padding: 7px 10px 10px!important}}
+
+        .main-logo{background-image:url("data:image/svg+xml,%3Csvg width='128' height='35' xmlns='http://www.w3.org/2000/svg' id='Layer_1' data-name='Layer 1' viewBox='0 0 500 120'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%23ec001e;%7D.cls-2%7Bfill:%2300123f;%7D.cls-3%7Bfill:%23fff;%7D%3C/style%3E%3C/defs%3E%3Ctitle%3Eliga.net.%3C/title%3E%3Cpath class='cls-1' d='M310.35,125.23H298.17l2.65-12.44H313Zm11.65,0,9.26-44.73h11.38l-1.32,6.62h0.26a22.48,22.48,0,0,1,6.35-5.29,20.43,20.43,0,0,1,9.79-2.38c2.38,0,6.62.26,9.79,3.71a12.25,12.25,0,0,1,2.91,8.47c0,1.59-.26,2.91-0.26,4l-6.09,30.17H352.17l5.56-27.26a9.92,9.92,0,0,0,.26-2.91,5.45,5.45,0,0,0-1.85-4.5,6,6,0,0,0-4.5-1.59A12.29,12.29,0,0,0,344,92.14c-3.44,2.65-4.76,6.09-5.56,9.26l-5,24.35H322v-0.53ZM386.58,107a4.5,4.5,0,0,0-.26,1.85,7.89,7.89,0,0,0,3.18,6.35,14.8,14.8,0,0,0,8.47,2.38,24.47,24.47,0,0,0,7.68-1.06c2.38-.53,4.5-1.32,7.15-2.12l-1.85,9a45.33,45.33,0,0,1-15.62,2.91c-5.29,0-11.65-1.32-15.62-4.76-2.65-2.38-5.56-6.62-5.56-14a27.36,27.36,0,0,1,7.68-19.32,28.26,28.26,0,0,1,20.12-8.47c6.88,0,10.85,2.91,13.23,5.56,2.12,2.38,4,6.09,4,11.65a59,59,0,0,1-.79,7.15l-0.53,3.44H386.58V107Zm20.12-8.73a9.92,9.92,0,0,0,.26-2.91A7.83,7.83,0,0,0,405.37,90c-1.06-1.32-2.91-2.38-5.82-2.38a9.44,9.44,0,0,0-7.41,3.44,16.81,16.81,0,0,0-4,7.15h18.53Zm16.15-10.32,1.59-7.41h7.15l2.12-10.32,11.91-1.32L443,80.76h10.59L452,88.17H441.37l-4.23,21.44a18,18,0,0,0-.53,4,4.22,4.22,0,0,0,1.06,3.18,6.41,6.41,0,0,0,3.44,1.06,22.23,22.23,0,0,0,5-.79l-1.85,8.47a49.2,49.2,0,0,1-8.73,1.06c-3.44,0-6.62-.79-8.73-2.65a9.2,9.2,0,0,1-2.91-7.15,18.42,18.42,0,0,1,.53-4.23l4.76-24.09h-6.35V87.91Z' transform='translate(0 -1)'/%3E%3Cpath class='cls-2' d='M156,62L143.6,125.5H120.3l9-45.53H117.92L115.8,90.56c-3.18,15.09-5.56,34.94-28.59,34.94a42.65,42.65,0,0,1-11.65-1.59l3.18-15.62a32.43,32.43,0,0,0,5,.53,7.49,7.49,0,0,0,6.35-4c1.32-1.85,3.18-6.09,6.35-22.23L100.72,62H156Zm32,0H164.77L161.33,80.5h23.56Zm-34.41,56.11-1.32,7.41h23.29l8.47-43.14C164.24,84.73,157.09,100.09,153.65,118.08Zm137.11,7.41H266.15l-1.59-13.23H246l-6.62,13.23H216.12L250,62h31.5ZM264.82,96.91l-2.38-19.06h-0.26L251.85,96.91h13ZM232,80.5L241.53,62H196.8L184.36,125.5h23.29l9-45H232Z' transform='translate(0 -1)'/%3E%3Ccircle class='cls-3' cx='42.49' cy='42.44' r='42.35'/%3E%3Cpath class='cls-1' d='M35.07,85.26a40.9,40.9,0,0,1-13.76-5C31.9,79.7,47,75.47,49.37,63.56a9.93,9.93,0,0,0,0-4c10.32-.26,26.73-4.5,28.85-16.94,1.85-11.12-11.91-14.82-15.35-23.56-1.06-3.18-1.06-9,1.59-11.38A42.36,42.36,0,0,1,84.31,51.12,43,43,0,0,1,35.07,85.26h0ZM20.25,79.7A42.49,42.49,0,0,1,49.63,1.62a45.86,45.86,0,0,1,13.5,5c-10.06.53-25.41,4.76-27.53,16.68a11.37,11.37,0,0,0,0,4.23C25,27.83,8.87,31.8,6.75,44.24,4.9,55.62,18.66,59.06,22.1,67.79c1.06,3.44,1.06,9.26-1.85,11.91h0ZM35.87,28.09C37.72,35.77,48.31,39.74,51,47.15,52,50.32,52,56.41,49.1,58.79,47.25,51.12,36.66,47.15,34,39.74c-1.32-3.18-1.32-9,1.85-11.65h0Z' transform='translate(0 -1)'/%3E%3C/svg%3E");height:35px;width:128px;padding-top:35px;background-repeat:no-repeat}.header-shadow{min-height:85px}header{background-color:#fff;min-height:85px;padding:14px 15px 10px;box-shadow:0 4px 5px rgba(188,188,188,.25);z-index:5;position:relative;transition:.4s ease-in-out}.main-logo div{font-size:.75em;line-height:1.5rem;color:#858585;padding-left:22px;margin-top:-2px}.navbar-align{display:flex;justify-content:space-between;align-items:center;align-content:center;margin:0 auto}.mv-100{width:100px!important}@media (max-width:991px) and (min-width:767px){.after-social-area{width:100%}}@media only screen and (max-width:995px){.main-logo{width:126px}.w-tablet-100{max-width:100%}}@media only screen and (max-width:850px){.main-logo svg{width:126px}}@media only screen and (max-width:767px){header{min-height:65px !important;padding:7px 25px 10px}.header-shadow{min-height:65px}}@media only screen and (max-width:450px){header{padding:7px 10px 10px!important}}@media only screen and (max-width:450px){.logo-area.third img{max-width:100%}.container{padding-left:10px;padding-right:10px}}
+        footer{z-index:5;position:relative}footer>*{color:#fff}footer .new-part-list .centering img,footer .new-part-list .centering svg,footer .new-part-list .left-logo-margin-1 img{margin-bottom:10px}.footer-main-bg{background-color:#222;padding:43px 0 40px}.footer-last-text{font-size:.75em;line-height:1rem;padding-top:50px}.footer-last-text a{color:#fff;text-decoration:underline}.footer-list{text-decoration:none;padding:0}.footer-list li:nth-child(2){margin:0 10px}.footer-list li{font-size:.875em;line-height:1.5rem;text-decoration-line:underline;list-style:none}.footer-list li a{color:#fff}.footer-soc-text{font-weight:700;font-size:1.063em;line-height:1.5rem}.after-social-link{font-size:.875em;line-height:1.313rem;text-decoration-line:underline;color:#fff;margin-bottom:3px}.after-social-link:hover{color:#fff;text-decoration:underline}.after-social-area{display:inline-grid;margin-top:24px}.news-list::after{content:"";background:linear-gradient(180deg,#fff 3.88%,rgba(0,0,0,.01) 173.77%);transform:rotate(180deg);min-height:72px;width:100%;max-width:295px;display:block;position:absolute;bottom:36px;z-index:6;opacity:.85}.social-area{width:214px;margin-top:72px}.social-area.black-theme{width:214px;margin-top:11px}.social-area.black-theme .social-icon.fb,.social-area.black-theme .social-icon.tl,.social-area.black-theme .social-icon.tw,.social-area.black-theme .social-icon.yt{background-color:#313131}.social-area a{width:40px}.social-area a:nth-child(even){margin:0 18px}.social-icon{width:40px;height:40px;border-radius:50%}.social-icon.fb{background-color:#4267b2}.social-icon.tw{background-color:#1ca1f2}.social-icon.tl{background-color:#37ade1}.social-icon.yt{background-color:#ff0e17}.tl svg{margin-left:-3px}@media (max-width:991px) and (min-width:767px){.info-block{float:none;margin-top:35px}.footer-soc-text{padding-top:16px}}@media only screen and (max-width:767px){.mobile-absolute{position:relative!important;margin-top:11px}}@media only screen and (max-width:576px){.mobile-bg{background-color:#222;margin:0 15px;padding:24px 0 40px}.mobile-bg div a{display:block;width:100%}.footer-soc-text{margin-bottom:-3px}footer svg{display:inline-block}.social-area.black-theme{margin-bottom:-5px}.footer-main-bg{padding:43px 0 0!important}}
+
+        html{box-sizing:border-box;-ms-overflow-style:scrollbar}*,::after,::before{box-sizing:inherit}.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}.row{display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px}.no-gutters>.col,.no-gutters>[class*=col-]{padding-right:0;padding-left:0}.col-lg-3,.col-lg-5,.col-md-3,.col-md-7{position:relative;width:100%;padding-right:15px;padding-left:15px}.row-cols-1>*{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.row-cols-2>*{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.row-cols-3>*{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.row-cols-4>*{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.row-cols-5>*{-ms-flex:0 0 20%;flex:0 0 20%;max-width:20%}.row-cols-6>*{-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}@media (min-width:576px){.row-cols-sm-1>*{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.row-cols-sm-2>*{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.row-cols-sm-3>*{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.row-cols-sm-4>*{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.row-cols-sm-5>*{-ms-flex:0 0 20%;flex:0 0 20%;max-width:20%}.row-cols-sm-6>*{-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}}@media (min-width:768px){.row-cols-md-1>*{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.row-cols-md-2>*{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.row-cols-md-3>*{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.row-cols-md-4>*{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.row-cols-md-5>*{-ms-flex:0 0 20%;flex:0 0 20%;max-width:20%}.row-cols-md-6>*{-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}.col-md-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-md-7{-ms-flex:0 0 58.333333%;flex:0 0 58.333333%;max-width:58.333333%}}@media (min-width:992px){.row-cols-lg-1>*{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.row-cols-lg-2>*{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.row-cols-lg-3>*{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.row-cols-lg-4>*{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.row-cols-lg-5>*{-ms-flex:0 0 20%;flex:0 0 20%;max-width:20%}.row-cols-lg-6>*{-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}.col-lg-3{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.col-lg-5{-ms-flex:0 0 41.666667%;flex:0 0 41.666667%;max-width:41.666667%}.offset-lg-2{margin-left:16.666667%}}@media (min-width:1200px){.row-cols-xl-1>*{-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}.row-cols-xl-2>*{-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}.row-cols-xl-3>*{-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}.row-cols-xl-4>*{-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}.row-cols-xl-5>*{-ms-flex:0 0 20%;flex:0 0 20%;max-width:20%}.row-cols-xl-6>*{-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}.offset-xl-3{margin-left:25%}}.d-none{display:none!important}.d-inline-block{display:inline-block!important}.d-flex{display:-ms-flexbox!important;display:flex!important}@media (min-width:768px){.d-md-inline-flex{display:-ms-inline-flexbox!important;display:inline-flex!important}}@media (min-width:992px){.d-lg-block{display:block!important}}.justify-content-center{-ms-flex-pack:center!important;justify-content:center!important}.justify-content-between{-ms-flex-pack:justify!important;justify-content:space-between!important}.align-items-end{-ms-flex-align:end!important;align-items:flex-end!important}.align-items-center{-ms-flex-align:center!important;align-items:center!important}.align-content-center{-ms-flex-line-pack:center!important;align-content:center!important}.mt-0{margin-top:0!important}.mt-3{margin-top:1rem!important}.p-0{padding:0!important}.px-3{padding-right:1rem!important}.px-3{padding-left:1rem!important}.m-auto{margin:auto!important}.mx-auto{margin-right:auto!important}.mx-auto{margin-left:auto!important}@media (min-width:576px){.mt-sm-3{margin-top:1rem!important}.mt-sm-4{margin-top:1.5rem!important}}@media (min-width:768px){.mt-md-0{margin-top:0!important}}
+    </style>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+    <meta class="viewport" name="viewport" content="width=device-width, initial-scale=1.0">    
+
+</head>
+<body>
+
+<div class="header-shadow">
+    <header class="movie-off" id="menu">
+        <div class="container position-relative p-0 w-tablet-100">
+            <navbar class="container d-flex m-auto align-content-center align-items-center justify-content-between">
+                <div class="d-flex align-items-end">
+                    <a class="main-logo" href="/" aria-label="Liga Money">
+                        <div class="d-none d-lg-block">Since 1997</div>
+                    </a>
+                </div>
+
+                <div>
+                    <ul class="nav d-none d-md-inline-flex ">
+                    </ul>
+                </div>
+            </navbar>
+
+        </div>
+    </header>
+</div>
+
+<main>
+  <div class="container">
+      <div class="row mt-0 mt-sm-4">
+          <h1 id="online-state" class="mx-auto px-3 w-100">Нет подключения к интернету</h1>
+          <p class="mx-auto px-3">Попробуйте обновить после подключения к интернету или перейти на главную страницу</p>
+      </div>
+  </div>
+</main>
+
+<footer>
+    <div class="footer-main-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-lg-5">
+                    <ul class="footer-list">
+                        <li class="text-center d-inline-block"><a href="">Контакти</a></li>
+                        <li class="text-center d-inline-block"><a href="">Реклама</a></li>
+                        <li class="text-center d-inline-block"><a href="">Правила використання матеріалів</a></li>
+                    </ul>
+                    <div class="footer-text"></div>
+                    <div class="footer-last-text">© Інформаційне агентство ЛIГАБiзнесIнформ, 2007-2019<br> Реклама на <a href="">Liga.net</a>: <a href="tel:+380445612738">+38044 561-27-38</a>, <a href="">+38044 585-24-06</a>, <a href="">adv@liga.net</a></div>
+                </div>
+                <div class="col-md-3 col-lg-3 offset-lg-2 offset-xl-3 mt-3 mt-sm-3 mt-md-0">
+                    <div class="footer-soc-text">Ми у соцмережах</div>
+                    <div class="social-area black-theme d-flex float-left">
+                        <a href="" aria-label="Liga.net in facebook">
+                            <div class="social-icon fb d-flex justify-content-center align-items-center">
+                                <svg width="11" height="23" viewBox="0 0 11 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.78595 11.4803H6.82299V23H2.34151V11.4803H0.193359V7.43077H2.34151V4.79658C2.34151 2.94872 3.15632 0 6.86003 0H10.1934V3.93162H7.78595C7.37854 3.93162 6.82299 4.12821 6.82299 5.03248V7.43077H10.1934L9.78595 11.4803Z" fill="white"/>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="" aria-label="Liga.net in twitter">
+                            <div class="social-icon tw d-flex justify-content-center align-items-center">
+                                <svg width="22" height="19" viewBox="0 0 22 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21.3867 2.42185C20.6238 2.80302 19.7806 3.01479 18.8972 3.14185C19.7806 2.59126 20.4632 1.70185 20.7844 0.643023C19.9814 1.15126 19.0578 1.53243 18.054 1.7442C17.251 0.854788 16.1668 0.304199 14.9221 0.304199C12.5531 0.304199 10.6257 2.33714 10.6257 4.83596C10.6257 5.17479 10.6659 5.55596 10.7462 5.85243C7.13242 5.68302 3.96033 3.9042 1.83223 1.15126C1.47085 1.78655 1.27008 2.59126 1.27008 3.43832C1.27008 5.00538 2.03299 6.40302 3.19743 7.20773C2.47467 7.16538 1.83223 6.99596 1.22993 6.65714V6.69949C1.22993 8.90185 2.71559 10.723 4.68309 11.1466C4.32171 11.2313 3.96033 11.316 3.5588 11.316C3.27773 11.316 2.99666 11.2736 2.75574 11.2313C3.31789 13.0524 4.88385 14.3654 6.77104 14.3654C5.28538 15.5936 3.43834 16.3136 1.4307 16.3136C1.06932 16.3136 0.748095 16.3136 0.386719 16.2713C2.27391 17.5418 4.56263 18.3042 6.9718 18.3042C14.9221 18.3042 19.2586 11.3583 19.2586 5.38655C19.2586 5.17479 19.2586 5.00538 19.2586 4.79361C20.0617 4.15832 20.7844 3.35361 21.3867 2.42185Z" fill="white"/>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="" aria-label="Liga.net in telegram">
+                            <div class="social-icon tl d-flex justify-content-center align-items-center">
+                                <svg width="21" height="19" viewBox="0 0 21 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1.22329 9.50324L5.83279 11.2811L7.61696 17.2121C7.73162 17.5914 8.18111 17.7336 8.47923 17.4823L11.0477 15.3157C11.3183 15.0881 11.699 15.0786 11.9834 15.2872L16.6158 18.7624C16.9369 19.0042 17.3863 18.8193 17.4643 18.421L20.8584 1.54786C20.9455 1.11169 20.5327 0.751378 20.1291 0.90783L1.2187 8.45548C0.750875 8.64038 0.755462 9.32308 1.22329 9.50324ZM7.32801 10.3377L16.3314 4.60106C16.492 4.49676 16.6617 4.72433 16.5195 4.85707L9.08924 11.997C8.82781 12.2483 8.65811 12.5849 8.61224 12.9499L8.35998 14.889C8.32788 15.1498 7.97471 15.1735 7.90591 14.9222L6.93356 11.3854C6.8189 10.9872 6.98401 10.5557 7.32801 10.3377Z" fill="white"/>
+                                </svg>
+                            </div>
+                        </a>
+                        <a href="" aria-label="Liga.net in instagram">
+                            <div class="social-icon yt d-flex justify-content-center align-items-center">
+                                <svg width="22" height="22" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.99999 3.35889C5.02418 3.35889 3.38708 4.96776 3.38708 6.97179C3.38708 8.97582 4.99596 10.5847 6.99999 10.5847C9.00402 10.5847 10.6129 8.9476 10.6129 6.97179C10.6129 4.99598 8.97579 3.35889 6.99999 3.35889ZM6.99999 9.28631C5.72983 9.28631 4.68547 8.24195 4.68547 6.97179C4.68547 5.70163 5.72983 4.65727 6.99999 4.65727C8.27015 4.65727 9.3145 5.70163 9.3145 6.97179C9.3145 8.24195 8.27015 9.28631 6.99999 9.28631Z" fill="white"/>
+                                    <path d="M10.754 4.09272C11.2061 4.09272 11.5726 3.72625 11.5726 3.27418C11.5726 2.8221 11.2061 2.45563 10.754 2.45563C10.302 2.45563 9.93549 2.8221 9.93549 3.27418C9.93549 3.72625 10.302 4.09272 10.754 4.09272Z" fill="white"/>
+                                    <path d="M12.871 1.15726C12.1371 0.395161 11.0927 0 9.90726 0H4.09274C1.6371 0 0 1.6371 0 4.09274V9.87903C0 11.0927 0.395161 12.1371 1.18548 12.8992C1.94758 13.6331 2.96371 14 4.12097 14H9.87903C11.0927 14 12.1089 13.6048 12.8427 12.8992C13.6048 12.1653 14 11.121 14 9.90726V4.09274C14 2.90726 13.6048 1.89113 12.871 1.15726ZM12.7581 9.90726C12.7581 10.7823 12.4476 11.4879 11.9395 11.9677C11.4315 12.4476 10.7258 12.7016 9.87903 12.7016H4.12097C3.27419 12.7016 2.56855 12.4476 2.06048 11.9677C1.55242 11.4597 1.29839 10.754 1.29839 9.87903V4.09274C1.29839 3.24597 1.55242 2.54032 2.06048 2.03226C2.54032 1.55242 3.27419 1.29839 4.12097 1.29839H9.93548C10.7823 1.29839 11.4879 1.55242 11.996 2.06048C12.4758 2.56855 12.7581 3.27419 12.7581 4.09274V9.90726Z" fill="white"/>
+                                </svg>
+                            </div>
+                        </a>
+
+                    </div>
+                    <div class="after-social-area">
+                        <a href="" class="after-social-link">Розсилки Liga.net</a>
+                        <a href="" class="after-social-link">RSS-pозсилка</a>
+                        <a href="" class="after-social-link">Розширення для Сhrome</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
